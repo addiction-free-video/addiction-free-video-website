@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    background-color: rgba(243, 243, 243, 0.473);
+    border: white 15px solid;
+    min-height: 100vh;
+    position: relative;
+}
+
+@media (max-width: 1440px) {
+    body {
+        border: none;
+    }
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 35px 40px;
+}
+
+header a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+    padding: 0 10px;
+}
+
+@media (max-width: 1440px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    header a {
+        padding: 0 5px;
+        font-size: 15px;
+    }
+}
+
+main {
+    margin: 40px auto;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.homepage main {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1440px) {
+    .homepage main {
+        margin-top: 70px;
+    }
+}
+
+.homepage main h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.homepage main .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.homepage main img {
+    width: 100px;
+}
+
+@media (max-width: 1440px) {
+    .homepage main img {
+        width: 70px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .homepage main h1 {
+        font-size: 20px;
+    }
+}
+
+.homepage main h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+@media (max-width: 1440px) {
+    .homepage main h2 {
+        font-size: 30px;
+    }
+}
+
+.homepage .description {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.homepage .columns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .homepage .columns {
+        flex-direction: column;
+    }
+}
+
+.homepage .column {
+    width: 48%;
+    background-color: white;
+    padding: 70px 40px 110px 40px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .homepage .column {
+        width: 100%;
+        padding: 40px 20px 50px 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.homepage .column.column--image {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .homepage .column.column--image {
+        padding: 0px;
+    }
+}
+
+.homepage .column--image img {
+    width: 100%;
+}
+
+.homepage .column-wrapper {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .homepage .column-wrapper {
+        margin-top: 0;
+    }
+}
+
+.homepage .column h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.homepage .column a {
+    color: black;
+}
+
+.homepage .column p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.homepage .download-button {
+    padding-top: 00px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 15px;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: underline;
+    color: rgb(87, 87, 87);
+    padding: 0 10px;
+}
